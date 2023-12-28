@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Ordenada con CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        pre{
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .custom-list li {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-list li:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <pre>
+      
+        Art by Alejandro 
+            _.===========================._
+     .'`  .-  - __- - - -- --__--- -.  `'.
+    __  / ,'`     _|--|_________|--|_     `'. \
+   /'--| ;    _.'\ |  '         '  | /'._    ; |
+//     | |_.-' .-'.'    -  -- -    '.'-. '-._| |
+(\)    \"` _.-` /                     \ `-._ `"/
+(\)     `-`    /      .---------.      \    `-`
+(\)            |      ||1||2||3||      |
+(\)            |      ||4||5||6||      |
+(\)            |      ||7||8||9||      |
+(\)          __|      ||*||0||#||      |
+(\)        /.--|      '---------'      |
+(\)        (\) |\_  _  __   _   __  __/|
+(\)        (\) |                       |
+(\)_._._.__(\) |                       |
+(\\\\Ceo\\\)    '.___________________.'
+'-'-'-'--'
+
+
+    </pre>
+
+    <div class="container">
+        <h1>Listado de Canales</h1>
+        <ol class="custom-list">
+            <li>0 Nickelodeon</li>
+            <li>1 Cartoon Network</li>
+            <li>2 Discovery Kids</li>
+            <li>3 Fox Kids</li>
+            <li>4 Mtv</li>
+            <li>5 Rctv</li>
+            <li>6 Netflix</li>
+            <li>7 HboMax</li>
+            <li>8 Laptop</li>
+            <li>9 Radio</li>
+        </ol>
+    </div>
+
+
+   
+
+</body>
+</html>
